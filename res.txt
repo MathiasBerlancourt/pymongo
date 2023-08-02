@@ -1,0 +1,1732 @@
+Databases: 
+ ['admin', 'config', 'local', 'sample']
+Collections: 
+ ['books']
+{'_id': 3,
+ 'authors': ['Gojko Adzic'],
+ 'categories': ['Software Engineering'],
+ 'isbn': '1617290084',
+ 'pageCount': 0,
+ 'publishedDate': datetime.datetime(2011, 6, 3, 7, 0),
+ 'status': 'PUBLISH',
+ 'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/adzic.jpg',
+ 'title': 'Specification by Example'}
+count:  431
+count books with pageCount > 400:
+  157
+count books with pageCount > 400 and published:
+  155
+count books with the keyword Android in the shortDescription or longDescription :
+ 4
+category 1 and category 2 list:
+ [{'_id': None, 'Categorie1': ['Miscellaneous', 'Business', 'Internet', 'Programming', 'Java', 'XML', 'PHP', 'Computer Graphics', 'Software Engineering', 'In Action', 'Next Generation Databases', 'Mobile Technology', 'Microsoft .NET', 'internet', 'Client-Server', 'Object-Oriented Programming', 'Python', 'Web Development', 'java', 'Networking', 'Object-Technology Programming', 'Open Source', 'Theory', 'Microsoft', 'SOA', 'Microsoft/.NET', 'PowerBuilder', 'Algorithmic Art', 'Perl'], 'Categorie2': ['Python', 'S', 'Business', '.NET', 'Open Source', 'Theory', 'P', 'Networking', 'Java', 'Software Engineering', '', 'Computer Graphics', 'Client-Server', 'Perl', 'Internet', 'Software Development', 'Mobile']}]
+count books with the keywords Python or Java or C++ or Scala in the longDescription : 
+ 195
+[{'_id': 'Miscella',
+  'average_pages': 0.0,
+  'count': 1,
+  'max_pages': 0,
+  'min_pages': 0},
+ {'_id': 'Microsoft',
+  'average_pages': 572.375,
+  'count': 8,
+  'max_pages': 925,
+  'min_pages': 344},
+ {'_id': '',
+  'average_pages': 284.0,
+  'count': 2,
+  'max_pages': 368,
+  'min_pages': 200},
+ {'_id': 'SOA',
+  'average_pages': 250.0,
+  'count': 1,
+  'max_pages': 250,
+  'min_pages': 250},
+ {'_id': 'Mobile',
+  'average_pages': 416.0,
+  'count': 1,
+  'max_pages': 416,
+  'min_pages': 416},
+ {'_id': 'Microsoft/.NET',
+  'average_pages': 0.0,
+  'count': 1,
+  'max_pages': 0,
+  'min_pages': 0},
+ {'_id': 'PowerBuilder',
+  'average_pages': 433.7142857142857,
+  'count': 7,
+  'max_pages': 550,
+  'min_pages': 362},
+ {'_id': 'Perl',
+  'average_pages': 385.3333333333333,
+  'count': 6,
+  'max_pages': 504,
+  'min_pages': 304},
+ {'_id': 'Internet',
+  'average_pages': 441.2439024390244,
+  'count': 41,
+  'max_pages': 912,
+  'min_pages': 0},
+ {'_id': 'Algorithmic Art',
+  'average_pages': 0.0,
+  'count': 1,
+  'max_pages': 0,
+  'min_pages': 0},
+ {'_id': 'Computer Graph',
+  'average_pages': 400.0,
+  'count': 1,
+  'max_pages': 400,
+  'min_pages': 400},
+ {'_id': 'Web Development',
+  'average_pages': 441.47058823529414,
+  'count': 17,
+  'max_pages': 688,
+  'min_pages': 300},
+ {'_id': 'S',
+  'average_pages': 350.0,
+  'count': 1,
+  'max_pages': 350,
+  'min_pages': 350},
+ {'_id': 'Python',
+  'average_pages': 482.3333333333333,
+  'count': 6,
+  'max_pages': 688,
+  'min_pages': 350},
+ {'_id': 'Object-Oriented Programming',
+  'average_pages': 408.5,
+  'count': 4,
+  'max_pages': 512,
+  'min_pages': 350},
+ {'_id': 'Networking',
+  'average_pages': 366.42857142857144,
+  'count': 7,
+  'max_pages': 591,
+  'min_pages': 0},
+ {'_id': 'P',
+  'average_pages': 512.0,
+  'count': 1,
+  'max_pages': 512,
+  'min_pages': 512},
+ {'_id': 'java',
+  'average_pages': 0.0,
+  'count': 1,
+  'max_pages': 0,
+  'min_pages': 0},
+ {'_id': '.NET',
+  'average_pages': 925.0,
+  'count': 1,
+  'max_pages': 925,
+  'min_pages': 925},
+ {'_id': 'Open Source',
+  'average_pages': 474.0,
+  'count': 2,
+  'max_pages': 532,
+  'min_pages': 416},
+ {'_id': 'Theory',
+  'average_pages': 420.42857142857144,
+  'count': 7,
+  'max_pages': 591,
+  'min_pages': 280},
+ {'_id': 'Object-Technology Programming',
+  'average_pages': 200.0,
+  'count': 1,
+  'max_pages': 200,
+  'min_pages': 200},
+ {'_id': 'Computer Graphics',
+  'average_pages': 520.3333333333334,
+  'count': 6,
+  'max_pages': 840,
+  'min_pages': 328},
+ {'_id': 'In Action',
+  'average_pages': 0.0,
+  'count': 1,
+  'max_pages': 0,
+  'min_pages': 0},
+ {'_id': 'Software Engineering',
+  'average_pages': 287.75,
+  'count': 16,
+  'max_pages': 544,
+  'min_pages': 0},
+ {'_id': 'Mobile Technology',
+  'average_pages': 296.5,
+  'count': 6,
+  'max_pages': 504,
+  'min_pages': 0},
+ {'_id': 'Next Generation Databases',
+  'average_pages': 0.0,
+  'count': 1,
+  'max_pages': 0,
+  'min_pages': 0},
+ {'_id': 'Client-Server',
+  'average_pages': 516.0,
+  'count': 11,
+  'max_pages': 1101,
+  'min_pages': 220},
+ {'_id': 'internet',
+  'average_pages': 400.0,
+  'count': 1,
+  'max_pages': 400,
+  'min_pages': 400},
+ {'_id': 'Microsoft .NET',
+  'average_pages': 437.02941176470586,
+  'count': 34,
+  'max_pages': 848,
+  'min_pages': 0},
+ {'_id': 'Software Development',
+  'average_pages': 600.0,
+  'count': 1,
+  'max_pages': 600,
+  'min_pages': 600},
+ {'_id': 'Programming',
+  'average_pages': 362.1666666666667,
+  'count': 12,
+  'max_pages': 570,
+  'min_pages': 0},
+ {'_id': 'Client Server',
+  'average_pages': 368.0,
+  'count': 1,
+  'max_pages': 368,
+  'min_pages': 368},
+ {'_id': 'Miscellaneous',
+  'average_pages': 706.0,
+  'count': 2,
+  'max_pages': 1096,
+  'min_pages': 316},
+ {'_id': 'Business',
+  'average_pages': 404.1666666666667,
+  'count': 12,
+  'max_pages': 696,
+  'min_pages': 180},
+ {'_id': 'PHP',
+  'average_pages': 552.0,
+  'count': 1,
+  'max_pages': 552,
+  'min_pages': 552},
+ {'_id': 'Java',
+  'average_pages': 412.21875,
+  'count': 96,
+  'max_pages': 1088,
+  'min_pages': 0},
+ {'_id': 'XML',
+  'average_pages': 482.0,
+  'count': 4,
+  'max_pages': 680,
+  'min_pages': 304}]
+[{'_id': 3,
+  'authors': ['Gojko Adzic'],
+  'categories': ['Software Engineering'],
+  'day': 3,
+  'isbn': '1617290084',
+  'month': 6,
+  'pageCount': 0,
+  'publishedDate': datetime.datetime(2011, 6, 3, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/adzic.jpg',
+  'title': 'Specification by Example',
+  'year': 2011},
+ {'_id': 5,
+  'authors': ['Tariq Ahmed', 'Dan Orlando', 'John C. Bland II', 'Joel Hooks'],
+  'categories': ['Internet'],
+  'day': 15,
+  'isbn': '1935182420',
+  'longDescription': 'Using Flex, you can create high-quality, effective, and '
+                     'interactive Rich Internet Applications (RIAs) quickly '
+                     'and easily. Flex removes the complexity barrier from RIA '
+                     'development by offering sophisticated tools and a '
+                     'straightforward programming language so you can focus on '
+                     'what you want to do instead of how to do it. And the new '
+                     'features added in Flex 4 give you an even wider range of '
+                     'options!    Flex 4 in Action is an easy-to-follow, '
+                     'hands-on Flex tutorial that goes beyond feature coverage '
+                     'and helps you put Flex to work in real day-to-day tasks. '
+                     "You'll quickly master the Flex API and learn to apply "
+                     'the techniques that make your Flex applications stand '
+                     'out from the crowd.    The expert authors of Flex 4 in '
+                     'Action have one goal-to help you get down to business '
+                     'with Flex. Fast. Flex 4 in Action filters out the noise '
+                     'and dives into the core topics you need every day. Using '
+                     'numerous easy-to-understand examples, Flex 4 in Action '
+                     'gives you a strong foundation that you can build on as '
+                     'the complexity of your projects increases.    '
+                     "Interesting themes, styles, and skins  It's in there.  "
+                     'Working with databases  You got it.  Interactive forms '
+                     'and validation  You bet.  Charting techniques to help '
+                     "you visualize data  Bam!  And you'll get full coverage "
+                     'of these great Flex 4 upgrades:  Next generation Spark '
+                     'components-New buttons, form inputs, navigation controls '
+                     'and other visual components replace the Flex 3 "Halo" '
+                     'versions. Spark components are easier to customize, '
+                     'which makes skinning and theme design much faster  A new '
+                     '"network monitor" allows you to see the data '
+                     'communications between a Flex application and a backend '
+                     'server, which helps when trying to debug applications '
+                     'that are communicating to another system/service  '
+                     'Numerous productivity boosting features that speed up '
+                     'the process of creating applications  A faster compiler '
+                     'to take your human-written source code and convert it '
+                     'into a machine-readable format  Built-in support for '
+                     'unit testing allows you to improve the quality of your '
+                     'software, and reduce the time spent in testing',
+  'month': 11,
+  'pageCount': 600,
+  'publishedDate': datetime.datetime(2010, 11, 15, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed2.jpg',
+  'title': 'Flex 4 in Action',
+  'year': 2010},
+ {'_id': 9,
+  'authors': ['Andres Almiray', 'Danno Ferrin', '', 'James Shingler'],
+  'categories': ['Java'],
+  'day': 4,
+  'isbn': '1935182234',
+  'longDescription': 'Although several options exist for interface development '
+                     'in Java, even popular UI toolkits like Swing have been '
+                     'notoriously complex and difficult to use. Griffon, an '
+                     'agile framework that uses Groovy to simplify Swing, '
+                     'makes UI development dramatically faster and easier. In '
+                     'many respects, Griffon is for desktop development what '
+                     "Grails is for web development. While it's based on "
+                     'Swing, its declarative style and approachable level of '
+                     'abstraction is instantly familiar to developers familiar '
+                     'with other technologies such as Flex or JavaFX.    '
+                     'Griffon in Action is a comprehensive tutorial written '
+                     'for Java developers who want a more productive approach '
+                     "to UI development. In this book, you'll immediately dive "
+                     'into Griffon. After a Griffon orientation and a quick '
+                     "Groovy tutorial, you'll start building examples that "
+                     "explore Griffon's high productivity approach to Swing "
+                     'development. One of the troublesome parts of Swing '
+                     'development is the amount of Java code that is required '
+                     "to get a simple application off the ground.    You'll "
+                     'learn how SwingBuilder (and its cousin builders) present '
+                     'a very palatable alternative in the form of a DSL geared '
+                     'towards building graphical user interfaces. Pair it up '
+                     'with the convention over configuration paradigm, a well '
+                     'tested and tried application source structure (based on '
+                     'Grails) and you have a recipe for quick and effective '
+                     'Swing application development. Griffon in Action covers '
+                     'declarative view development, like the one provided by '
+                     'JavaFX Script, as well as the structure, architecture '
+                     'and life cycle of Java application development',
+  'month': 6,
+  'pageCount': 375,
+  'publishedDate': datetime.datetime(2012, 6, 4, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/almiray.jpg',
+  'title': 'Griffon in Action',
+  'year': 2012},
+ {'_id': 10,
+  'authors': ['Alexandre de Castro Alves'],
+  'categories': ['Java'],
+  'day': 12,
+  'isbn': '193518217X',
+  'longDescription': 'A good application framework greatly simplifies a '
+                     "developer's task by providing reusable code modules that "
+                     'solve common, tedious, or complex tasks. Writing a great '
+                     'framework requires an extraordinary set of '
+                     'skills-ranging from deep knowledge of a programming '
+                     'language and target platform to a crystal-clear view of '
+                     'the problem space where the applications to be developed '
+                     'using the framework will be used.    OSGi Application '
+                     'Frameworks shows a Java developer how to build '
+                     'frameworks based on the OSGi service platform. OSGi, an '
+                     'emerging Java-based technology for developing modular '
+                     'applications, is a great tool for framework building. A '
+                     'framework itself, OSGi allows the developer to create a '
+                     'more intuitive, modular framework by isolating many of '
+                     'the key challenges the framework developer faces.    '
+                     'This book begins by describing the process, principles, '
+                     'and tools you must master to build a custom application '
+                     'framework. It introduces the fundamental concepts of '
+                     'OSGi, and then shows you how to put OSGi to work '
+                     'building various types of frameworks that solve specific '
+                     'development problems.    OSGi is particularly useful for '
+                     'building frameworks that can be easily extended by '
+                     'developers to create domain-specific applications. This '
+                     'book teaches the developer to break down a problem '
+                     'domain into its abstractions and then use OSGi to create '
+                     'a modular framework solution. Along the way, the '
+                     'developer learns software engineering practices '
+                     'intrinsic to framework building that result in systems '
+                     'with better software qualities, such as flexibility, '
+                     'extensibility, and maintainability.    Author Alexandre '
+                     'Alves guides you through major concepts, such as the '
+                     'definition of programming models and modularization '
+                     'techniques, and complements them with samples that have '
+                     'real applicability using industry-proved technologies, '
+                     'such as Spring-DM and Equinox.',
+  'month': 12,
+  'pageCount': 325,
+  'publishedDate': datetime.datetime(2011, 12, 12, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alves.jpg',
+  'title': 'OSGi in Depth',
+  'year': 2011},
+ {'_id': 17,
+  'authors': ['Kyle Banker'],
+  'categories': ['Next Generation Databases'],
+  'day': 12,
+  'isbn': '1935182870',
+  'longDescription': "MongoDB is a document-oriented database that's highly "
+                     'scalable and delivers very high-performance, especially '
+                     'with massive data sets that need to be spread across '
+                     'multiple servers. It blends the things you expect with '
+                     'any database   like indexing, querying, and high '
+                     'availability   with powerful new features like easy '
+                     'horizontal scaling ("auto-sharding"), map/reduce '
+                     'aggregation, and a flexible document data model to '
+                     'support dynamic schemas.    MongoDB In Action is a '
+                     'comprehensive guide to MongoDB for application '
+                     'developers. The book begins by explaining what makes '
+                     'MongoDB unique and describing its ideal use cases. A '
+                     'series of tutorials designed for MongoDB mastery then '
+                     'leads into detailed examples for leveraging MongoDB in '
+                     'e-commerce, social networking, analytics, and other '
+                     "common applications.    Along the way, all of MongoDB's "
+                     'major features are covered, including:        * Indexes '
+                     'and explain plans for efficient queries      * Atomic '
+                     'operations for managing simple data structures and '
+                     'manipulating complex, rich documents      * GridFS for '
+                     'storing and managing large binary objects (images, '
+                     'videos, etc.) in MongoDB      * Map-reduce for custom '
+                     'aggregations and reporting      * Master-slave '
+                     'replication and replica sets for automated failover      '
+                     '* Auto-sharding for automated horizontal scaling    The '
+                     'handy reference section on schema design patterns will '
+                     'help ease the transition from the relational data model '
+                     "of SQL to MongoDB's document-based data model. The "
+                     'numerous, detailed examples are implemented in Ruby and '
+                     'include comprehensive explanations.    MongoDB has been '
+                     'gaining traction in the developer community for its '
+                     'speed, flexibility, scalability, and ease of use. With '
+                     'production deployments that include SourceForge, '
+                     'Foursquare, and Shutterfly, MongoDB is proving to be a '
+                     'robust and reliable database system that keeps '
+                     'developers happy. Covering everything from installation '
+                     'to application design to deployment, MongoDB In Action '
+                     'is written for the application developer who wants to '
+                     'take advantage of MongoDB and get up and running '
+                     'quickly.',
+  'month': 12,
+  'pageCount': 0,
+  'publishedDate': datetime.datetime(2011, 12, 12, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg',
+  'title': 'MongoDB in Action',
+  'year': 2011},
+ {'_id': 16,
+  'authors': ['Kyle Baley', 'Donald Belcham'],
+  'categories': ['Microsoft'],
+  'day': 16,
+  'isbn': '1933988711',
+  'longDescription': "It's easy to get excited about building a new software "
+                     'project from scratch. So-called "greenfield" projects '
+                     'often involve learning new technology and the '
+                     'opportunity for experimentation. Working on established '
+                     'software projects may seem less glamorous.    Most '
+                     'software developers have inherited a monolithic '
+                     'application where the day-to-day tasks involve '
+                     'maintenance, incremental improvements, or even cleaning '
+                     'up the mess another programmer left behind. These legacy '
+                     'or brownfield projects often have tightly coupled '
+                     'components, low cohesion, and poor separation of '
+                     'concerns, making them fragile and resistant to '
+                     'change.    Brownfield Application Development in .Net '
+                     'shows you how to approach legacy applications with the '
+                     "state-of-the-art concepts, patterns, and tools you've "
+                     'learned to apply to new projects. Using an existing '
+                     'application as an example, this book guides you in '
+                     'applying the techniques and best practices you need to '
+                     'make it more maintainable and receptive to change.    '
+                     'Starting with the build process and the introduction of '
+                     'unit tests, the authors show you how to set up the '
+                     'application so that in later chapters, you can make '
+                     'incremental changes aimed at decoupling components from '
+                     'each other. Each practice introduced will increase your '
+                     'confidence and ability to make subsequent changes to '
+                     'your code.    As the book proceeds, the authors '
+                     'introduce frameworks and tools commonly used today while '
+                     'still approaching the subject from a conceptual level so '
+                     'that you can substitute alternate tools as appropriate. '
+                     'This book examines the reasons why a tool is necessary, '
+                     'not the tool itself. Because the book is based on the '
+                     "authors' experiences, Brownfield Application Development "
+                     'in .Net moves beyond the theories and shows you the '
+                     'techniques you need to be successful.',
+  'month': 4,
+  'pageCount': 550,
+  'publishedDate': datetime.datetime(2010, 4, 16, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/baley.jpg',
+  'title': 'Brownfield Application Development in .NET',
+  'year': 2010},
+ {'_id': 2,
+  'authors': ['W. Frank Ableson', 'Robi Sen'],
+  'categories': ['Java'],
+  'day': 14,
+  'isbn': '1935182722',
+  'longDescription': 'When it comes to mobile apps, Android can do almost '
+                     'anything   and with this book, so can you! Android runs '
+                     'on mobile devices ranging from smart phones to tablets '
+                     "to countless special-purpose gadgets. It's the broadest "
+                     'mobile platform available.    Android in Action, Second '
+                     'Edition is a comprehensive tutorial for Android '
+                     'developers. Taking you far beyond "Hello Android," this '
+                     "fast-paced book puts you in the driver's seat as you "
+                     'learn important architectural concepts and '
+                     "implementation strategies. You'll master the SDK, build "
+                     'WebKit apps using HTML 5, and even learn to extend or '
+                     "replace Android's built-in features by building useful "
+                     'and intriguing examples. ',
+  'month': 1,
+  'pageCount': 592,
+  'publishedDate': datetime.datetime(2011, 1, 14, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson2.jpg',
+  'title': 'Android in Action, Second Edition',
+  'year': 2011},
+ {'_id': 8,
+  'authors': ['Bernerd Allmon', 'Jeremy Anderson'],
+  'categories': ['Internet'],
+  'day': 15,
+  'isbn': '1933988797',
+  'longDescription': 'In the demo, a hip designer, a sharply-dressed marketer, '
+                     'and a smiling, relaxed developer sip lattes and calmly '
+                     'discuss how Flex is going to make customers happy and '
+                     'shorten the workday   all while boosting the bottom '
+                     "line. The software systems they're using have been "
+                     'carefully selected and built from the ground up to work '
+                     'together seamlessly. There are no legacy systems, data, '
+                     'or competing business concerns to manage.    Cut to '
+                     "reality.    You're a Java developer. The marketing guy "
+                     'tells you that "corporate" wants a Flex-based site and '
+                     'you have to deliver it on top of what you already have. '
+                     'Your budget  Don\'t even ask. "Make it look like the '
+                     'Discovery channel or something."    Flex on Java assumes '
+                     'you live in the real world   not the demo. This unique '
+                     'book shows you how to refactor an existing web '
+                     'application using the server-side you already know. '
+                     "You'll learn to use Flex 3 in concert with Spring, EJB "
+                     '3, POJOs, JMS, and other standard technologies. Wherever '
+                     'possible, the examples use free or open source '
+                     'software.    The authors start with a typical Java web '
+                     'app and show you how to add a rich Flex interface. You '
+                     'also learn how to integrate Flex into your server-side '
+                     "Java via the BlazeDS framework, Adobe's open-source "
+                     'remoting and web messaging technology for Flex.    The '
+                     'book shows you how to deploy to not only the web but '
+                     'also to the desktop using the Adobe Integrated Runtime '
+                     '(AIR). You will learn how to integrate Flex into your '
+                     'existing applications in order to build a next '
+                     'generation application that will delight users.    Flex '
+                     'on Java is approachable for anyone beginning Java and '
+                     'Flex development.    ',
+  'month': 10,
+  'pageCount': 265,
+  'publishedDate': datetime.datetime(2010, 10, 15, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/allmon.jpg',
+  'title': 'Flex on Java',
+  'year': 2010},
+ {'_id': 30,
+  'authors': ['Bear Bibeault', 'Yehuda Katz'],
+  'categories': ['Java'],
+  'day': 1,
+  'isbn': '1935182323',
+  'longDescription': 'A really good web development framework anticipates your '
+                     'needs. jQuery does more   it practically reads your '
+                     'mind. Developers fall in love with this JavaScript '
+                     'library the moment they see 20 lines of code reduced to '
+                     'three. jQuery is concise and readable. Its unique '
+                     '"chaining" model lets you perform multiple operations on '
+                     'a page element in succession. And with version 1.4, '
+                     "there's even more to love about jQuery, including new "
+                     'effects and events, usability improvements, and more '
+                     'testing options.    jQuery in Action, Second Edition is '
+                     'a fast-paced introduction and guide. Building on the '
+                     'bestselling first edition, it adds new examples, more '
+                     'labs, and deeper explanations of important features. '
+                     'You   ll learn how to traverse HTML documents, handle '
+                     'events, perform animations, and add Ajax to your web '
+                     'pages. The book\'s unique "lab pages" anchor the '
+                     'explanation of each new concept in a practical example. '
+                     "You'll learn how jQuery interacts with other tools and "
+                     'frameworks and how to build jQuery plugins. This book '
+                     'requires a modest knowledge of JavaScript and Ajax.',
+  'month': 6,
+  'pageCount': 488,
+  'publishedDate': datetime.datetime(2010, 6, 1, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bibeault2.jpg',
+  'title': 'jQuery in Action, Second Edition',
+  'year': 2010},
+ {'_id': 37,
+  'authors': ['Anthony Briggs'],
+  'categories': ['Python'],
+  'day': 13,
+  'isbn': '1935182080',
+  'longDescription': 'Learn Python the fast and fun way! Hello! Python is a '
+                     'fully-illustrated, project-driven tutorial designed to '
+                     'get you up and running with Python, no experience '
+                     "required. It's full of projects that help you learn the "
+                     'way most programmers do   one step at a time, starting '
+                     'with the basics, and then applying your new skills in '
+                     'useful programs.    Hello! Python fully covers the '
+                     'building blocks of Python programming and gives you a '
+                     'gentle introduction to more advanced topics such as '
+                     'object oriented programming, functional programming, '
+                     'network programming, and program design. New (or nearly '
+                     'new) programmers will learn most of what they need to '
+                     'know to start using Python immediately.    The book '
+                     'presents several practical projects, including games, '
+                     'business, and graphical applications. Each example '
+                     'provides a solid base for you to develop your own '
+                     "programs. As you dig into Python, you'll see how "
+                     'programs are created, and the reasons behind the '
+                     "technical decisions.    The book covers Python's large "
+                     'standard library gradually and in the context of sample '
+                     "apps, so the reader isn't overwhelmed with a large "
+                     'number of library functions to absorb all at once. Upon '
+                     'completing the book, the reader will have a good grasp '
+                     'of Python, know several technologies and libraries '
+                     'related to Python and be able to identify many resources '
+                     'for future growth as a programmer.',
+  'month': 2,
+  'pageCount': 350,
+  'publishedDate': datetime.datetime(2012, 2, 13, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/briggs.jpg',
+  'title': 'Hello! Python',
+  'year': 2012},
+ {'_id': 36,
+  'authors': ['Daniele Bochicchio', 'Stefano Mostarda', '', 'Marco De Sanctis'],
+  'categories': ['Microsoft .NET'],
+  'day': 15,
+  'isbn': '1935182463',
+  'longDescription': 'ASP.NET is an established technology to build web '
+                     'applications using Microsoft products. It drives a '
+                     'number of enterprise-level web sites around the world, '
+                     'but it can be scaled for projects of any size. The new '
+                     'version 4.0 is an evolutionary step: you will find a lot '
+                     'of new features that you will be able to leverage to '
+                     'build better web applications with minimal effort.    '
+                     'ASP.NET 4.0 in Practice contains real world techniques '
+                     'from well-known professionals who have been using '
+                     'ASP.NET since the first previews. Using a practical '
+                     'Problem-Solution-Discussion format, it will guide you '
+                     'through the most common scenarios you will face in a '
+                     'typical ASP.NET application, and provide solutions and '
+                     'suggestions to take your applications to another level.',
+  'month': 5,
+  'pageCount': 504,
+  'publishedDate': datetime.datetime(2011, 5, 15, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bochicchio.jpg',
+  'title': 'ASP.NET 4.0 in Practice',
+  'year': 2011},
+ {'_id': 45,
+  'authors': ['Naomi R. Ceder'],
+  'categories': ['Python'],
+  'day': 1,
+  'isbn': '193518220X',
+  'longDescription': "This revision of Manning's popular The Quick Python Book "
+                     'offers a clear, crisp introduction to the elegant Python '
+                     'programming language and its famously easy-to-read '
+                     'syntax. Written for programmers new to Python, this '
+                     'updated edition covers features common to other '
+                     "languages concisely, while introducing Python's "
+                     'comprehensive standard functions library and unique '
+                     "features in detail.    After exploring Python's syntax, "
+                     'control flow, and basic data structures, the book shows '
+                     'how to create, test, and deploy full applications and '
+                     'larger code libraries. It addresses established Python '
+                     'features as well as the advanced object-oriented options '
+                     "available in Python 3. Along the way, you'll survey the "
+                     'current Python development landscape, including GUI '
+                     'programming, testing, database access, and web '
+                     "frameworks.    WHAT'S INSIDE:        * Concepts and "
+                     'Python 3 features      * Regular expressions and '
+                     'testing      * Python tools      * All the Python you '
+                     "need   nothing you don't",
+  'month': 1,
+  'pageCount': 360,
+  'publishedDate': datetime.datetime(2010, 1, 1, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ceder.jpg',
+  'title': 'The Quick Python Book, Second Edition',
+  'year': 2010},
+ {'_id': 41,
+  'authors': ['Bear P. Cahill'],
+  'categories': ['Mobile Technology'],
+  'day': 1,
+  'isbn': '1617291269',
+  'month': 11,
+  'pageCount': 325,
+  'publishedDate': datetime.datetime(2013, 11, 1, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cahill.jpg',
+  'title': 'iOS in Practice',
+  'year': 2013},
+ {'_id': 52,
+  'authors': ['Arnaud Cogoluegnes', 'Thierry Templier', '', 'Andy Piper'],
+  'categories': ['Java'],
+  'day': 4,
+  'isbn': '1935182307',
+  'longDescription': 'OSGi is increasingly familiar to Java coders working in '
+                     'distributed environments, but the tools required to '
+                     'implement OSGi-based systems have been slow to develop. '
+                     'Spring Dynamic Modules (Spring DM) is a framework '
+                     'designed to make it easy to build Spring apps that take '
+                     'advantage of the OSGi approach to modular Java '
+                     'development. It simplifies the task of creating true '
+                     'component and service oriented architectures in an OSGi '
+                     'environment using all the powerful features of the '
+                     'Spring framework.    Spring Dynamic Modules in Action '
+                     'introduces Spring DM and OSGi to Java EE developers and '
+                     'architects. It presents the fundamental concepts of '
+                     'OSGi-based apps and maps them to the familiar ideas of '
+                     'the Spring framework. Then, it engages you with the '
+                     "techniques and concepts you'll need to develop stable, "
+                     "flexible enterprise apps. You'll learn how to embed a "
+                     'Spring container inside an OSGi bundle, and how Spring '
+                     'DM lets you blend Spring strengths like dependency '
+                     'injection with OSGi-based services. Along the way, '
+                     "you'll see how Spring DM handles data access and "
+                     "web-based components, and you'll explore topics like "
+                     'unit testing and configuration in an OSGi-based '
+                     'environment.',
+  'month': 9,
+  'pageCount': 450,
+  'publishedDate': datetime.datetime(2010, 9, 4, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cogoluegnes.jpg',
+  'title': 'Spring Dynamic Modules in Action',
+  'year': 2010},
+ {'_id': 54,
+  'authors': ['Charlie Collins', 'Michael D. Galpin', '', 'Matthias Kaeppler'],
+  'categories': ['Mobile Technology'],
+  'day': 30,
+  'isbn': '1935182927',
+  'longDescription': "Android, Google's platform for mobile application "
+                     'development, provides powerful features, a robust SDK, '
+                     "and almost limitless possibilities. It's not hard to "
+                     'find the information you need to build your first '
+                     'Android app, but then what  If you want to build real '
+                     'apps for real users, you have real questions and you '
+                     'need real answers.    Android in Practice is treasure '
+                     'trove of Android goodness, with over 100 tested, '
+                     'ready-to-use techniques including complete end-to-end '
+                     'example applications and practical tips for real world '
+                     'mobile application developers. Written by real world '
+                     'Android developers, this book addresses the trickiest '
+                     'questions raised in forums and mailing lists. Using an '
+                     'easy-to-follow problem/solution/discussion format, it '
+                     'dives into important topics not covered in other Android '
+                     'books, like advanced drawing and graphics, testing and '
+                     'instrumentation, building and deploying applications, '
+                     'using alternative languages, and native development.    '
+                     "If you're new to Android, or even if you have a few "
+                     "cycles under your belt, you'll love the quick "
+                     '"pre-flight check," where you\'ll review key platform '
+                     'details and tools and the building blocks of all Android '
+                     "applications. Then, you'll delve into Android use "
+                     'cases   from visual elements and style, to saving and '
+                     'sharing data, networking, background tasks, concurrency, '
+                     'and more.',
+  'month': 9,
+  'pageCount': 500,
+  'publishedDate': datetime.datetime(2011, 9, 30, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/collins.jpg',
+  'title': 'Android in Practice',
+  'year': 2011},
+ {'_id': 65,
+  'authors': ['Rob Crowther'],
+  'categories': ['Internet'],
+  'day': 17,
+  'isbn': '1935182897',
+  'longDescription': 'HTML and CSS are the foundation of the web, and HTML5 '
+                     'and CSS3 are the latest standards. If you build web '
+                     'pages, mobile apps, or do any type of development at '
+                     "all, you'll have to learn HTML5 and CSS3, so why not "
+                     'start now  Quick and Easy HTML5 and CSS3 will give you a '
+                     'smart, snappy, and fun introduction to building web '
+                     'sites with these really cool new tools.    Quick and '
+                     'Easy HTML5 and CSS3 is written for the web designer or '
+                     'developer who wants a fast, example-oriented '
+                     'introduction to the new HTML and CSS features. After a '
+                     "quick review of the basics, you'll turn to what's new. "
+                     'Start by learning to apply important new elements and '
+                     'attributes by building your first real HTML5 pages. '
+                     "You'll then take a quick tour through the new APIs: Form "
+                     'Validation, Canvas, Drag & Drop, Geolocation and Offline '
+                     "Applications. You'll also discover how to include video "
+                     'and audio on your pages without plug-ins, and how to '
+                     'draw interactive vector graphics with SVG.    Once '
+                     "you've explored the fundamentals of HTML5, it's time to "
+                     'add some style to your pages with CSS3. New CSS features '
+                     'include drop shadows, borders, colors, gradients and '
+                     "backgrounds. In addition, you'll learn to layout your "
+                     'pages with the new flexible box and layout modules, and '
+                     "add the finishing touches with custom fonts. You'll also "
+                     'see how to target specific devices with media queries, '
+                     'and do all of it with less code thanks to the new '
+                     'selectors and pseudo classes.    Finally you will walk '
+                     'through several large examples where you see all the '
+                     'features of HTML5 and CSS3 working together to produce '
+                     'responsive and lightweight applications which you can '
+                     'interact with just like native desktop apps.',
+  'month': 10,
+  'pageCount': 325,
+  'publishedDate': datetime.datetime(2012, 10, 17, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/crowther.jpg',
+  'title': 'Hello! HTML5 & CSS3',
+  'year': 2012},
+ {'_id': 73,
+  'authors': ['Ken Rimple', 'Srini Penchikala'],
+  'categories': ['Java'],
+  'day': 13,
+  'isbn': '193518296X',
+  'month': 4,
+  'pageCount': 500,
+  'publishedDate': datetime.datetime(2012, 4, 13, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rimple.jpg',
+  'title': 'Spring Roo in Action',
+  'year': 2012},
+ {'_id': 74,
+  'authors': ['Jos Dirksen'],
+  'categories': ['java'],
+  'day': 27,
+  'isbn': '1617290270',
+  'month': 7,
+  'pageCount': 0,
+  'publishedDate': datetime.datetime(2012, 7, 27, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dirksen.jpg',
+  'title': 'SOA Governance in Action',
+  'year': 2012},
+ {'_id': 133,
+  'authors': ['Richard S. Hall',
+              'Karl Pauls',
+              'Stuart McCulloch',
+              '',
+              'David Savage'],
+  'categories': ['Internet'],
+  'day': 6,
+  'isbn': '1933988916',
+  'longDescription': "If you're a Java developer, you've almost certainly "
+                     "heard of OSGi   and also heard that it's becoming quite "
+                     'a big deal. But you may still be wondering exactly "What '
+                     'is OSGi "    Simply put, OSGi is a technology that '
+                     'allows you to create highly modular Java applications. '
+                     'It introduces a logical and physical module format, '
+                     'called a bundle, for explicitly structuring your '
+                     'application as a set of interconnected modules. OSGi '
+                     'lets you install, start, stop, update, or uninstall '
+                     'modules at execution time without taking down your '
+                     'entire system. In addition, OSGi defines a local '
+                     'service-oriented approach for creating applications out '
+                     'of loosely coupled components.    With the prevalence of '
+                     'modern component and service-based architectures, OSGi '
+                     'is becoming increasingly important. It meshes well with '
+                     'such approaches and greatly simplifies their creation '
+                     "and management. It's the backbone of Eclipse's plugin "
+                     'system as well as many recent JavaEE containers, such as '
+                     'GlassFish v3, WebSphere v6.1, and WebLogic Event Server. '
+                     'Even the SpringSource Application Platform is built on '
+                     'top of it.    OSGi in Action is a comprehensive guide to '
+                     'OSGi with two primary goals.    First, it provides a '
+                     'clear introduction to OSGi concepts with examples that '
+                     'are relevant both for architects and developers. The '
+                     'central idea of OSGi is modularity, so you start by '
+                     "learning about OSGi bundles.    You'll then see how OSGi "
+                     'handles module lifecycles and follow up with how it '
+                     'promotes service-oriented interaction among application '
+                     'components.    With the core concepts well in hand, '
+                     "you'll explore numerous application scenarios and "
+                     'techniques. How much of OSGi do you actually need  How '
+                     'do you embed OSGi inside other containers  What are the '
+                     'best practices for migrating legacy systems to OSGi  How '
+                     'can you embrace and make the most of system dynamism     '
+                     'Expert authors Richard S. Hall, Karl Pauls, and Stuart '
+                     'McCulloch have years of experience both in building '
+                     'OSGi-based systems and in contributing to OSGi '
+                     'implementations such as Apache Felix.',
+  'month': 4,
+  'pageCount': 576,
+  'publishedDate': datetime.datetime(2011, 4, 6, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hall.jpg',
+  'title': 'OSGi in Action',
+  'year': 2011},
+ {'_id': 137,
+  'authors': ['Yvonne M. Harryman'],
+  'categories': ['Microsoft .NET'],
+  'day': 13,
+  'isbn': '1933988754',
+  'longDescription': 'For every SharePoint 2010 developer who spends the day '
+                     'buried in Visual Studio cranking out code, there are '
+                     'dozens of other SharePoint site owners who want to share '
+                     'information, create content portals, and add features to '
+                     "existing SharePoint sites. If you're one of these "
+                     'SharePoint administrators, this is the book for you. '
+                     "Chock-full of great ideas and scenarios you'll relate to "
+                     'immediately, this book will teach you the amazing things '
+                     'you can do with SharePoint 2010 without writing any '
+                     'code   or calling in the developers.    SharePoint 2010 '
+                     "Site Owner's Manual starts by assuming you already have "
+                     'SharePoint installed on your system and are looking for '
+                     'ways to solve the problems you face every day in your '
+                     "organization. You'll learn to determine what type of "
+                     'SharePoint installation you have   Microsoft Office '
+                     'SharePoint Server (MOSS), Windows SharePoint Services '
+                     '(WSS), the "Fabulous 40" templates   and what features '
+                     'are at your disposal. Once you know the lay of the land, '
+                     "you'll discover what you can do yourself, when you need "
+                     'to call in some help, and when you should leave it to '
+                     'the developers.    This book teaches you by putting your '
+                     "hands on working SharePoint examples. You'll see seven "
+                     'common SharePoint-driven sites that lay out the features '
+                     "and approaches you'll need for most typical "
+                     'applications. The examples range from a simple '
+                     'document-sharing portal, to a SharePoint-hosted blog, to '
+                     'a project management site complete with a calendar, '
+                     'discussion forums, and an interactive task list.',
+  'month': 2,
+  'pageCount': 300,
+  'publishedDate': datetime.datetime(2012, 2, 13, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/harryman.jpg',
+  'title': "SharePoint 2010 Site Owner's Manual",
+  'year': 2012}]
+[{'_id': 45,
+  'author1': 'Naomi R. Ceder',
+  'authors_count': 1,
+  'categories': ['Python'],
+  'isbn': '193518220X',
+  'longDescription': "This revision of Manning's popular The Quick Python Book "
+                     'offers a clear, crisp introduction to the elegant Python '
+                     'programming language and its famously easy-to-read '
+                     'syntax. Written for programmers new to Python, this '
+                     'updated edition covers features common to other '
+                     "languages concisely, while introducing Python's "
+                     'comprehensive standard functions library and unique '
+                     "features in detail.    After exploring Python's syntax, "
+                     'control flow, and basic data structures, the book shows '
+                     'how to create, test, and deploy full applications and '
+                     'larger code libraries. It addresses established Python '
+                     'features as well as the advanced object-oriented options '
+                     "available in Python 3. Along the way, you'll survey the "
+                     'current Python development landscape, including GUI '
+                     'programming, testing, database access, and web '
+                     "frameworks.    WHAT'S INSIDE:        * Concepts and "
+                     'Python 3 features      * Regular expressions and '
+                     'testing      * Python tools      * All the Python you '
+                     "need   nothing you don't",
+  'pageCount': 360,
+  'publishedDate': datetime.datetime(2010, 1, 1, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ceder.jpg',
+  'title': 'The Quick Python Book, Second Edition',
+  'year': 2010},
+ {'_id': 261,
+  'author1': 'Oren Eini writing as Ayende Rahien',
+  'authors_count': 1,
+  'categories': ['Microsoft .NET'],
+  'isbn': '1933988606',
+  'longDescription': 'A general-purpose language like C# is designed to handle '
+                     'all programming tasks. By contrast, the structure and '
+                     'syntax of a Domain-Specific Language are designed to '
+                     'match a particular applications area. A DSL is designed '
+                     'for readability and easy programming of repeating '
+                     "problems. Using the innovative Boo language, it's a "
+                     'breeze to create a DSL for your application domain that '
+                     'works on .NET and does not sacrifice performance.    '
+                     'DSLs in Boo shows you how to design, extend, and evolve '
+                     'DSLs for .NET by focusing on approaches and patterns. '
+                     'You learn to define an app in terms that match the '
+                     'domain, and to use Boo to build DSLs that generate '
+                     "efficient executables. And you won't deal with the "
+                     'awkward XML-laden syntax many DSLs require. The book '
+                     'concentrates on writing internal (textual) DSLs that '
+                     'allow easy extensibility of the application and '
+                     "framework. And if you don't know Boo, don't worry   "
+                     "you'll learn right here all the techniques you need.    "
+                     "WHAT'S INSIDE:        * Introduction to DSLs, including "
+                     'common patterns      * A fast-paced Boo tutorial      * '
+                     'Dozens of practical examples and tips      * An '
+                     'entertaining, easy-to-follow style',
+  'pageCount': 352,
+  'publishedDate': datetime.datetime(2010, 1, 1, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rahien.jpg',
+  'title': 'DSLs in Boo: Domain-Specific Languages in .NET',
+  'year': 2010},
+ {'_id': 16,
+  'author1': 'Kyle Baley',
+  'author2': 'Donald Belcham',
+  'authors_count': 2,
+  'categories': ['Microsoft'],
+  'isbn': '1933988711',
+  'longDescription': "It's easy to get excited about building a new software "
+                     'project from scratch. So-called "greenfield" projects '
+                     'often involve learning new technology and the '
+                     'opportunity for experimentation. Working on established '
+                     'software projects may seem less glamorous.    Most '
+                     'software developers have inherited a monolithic '
+                     'application where the day-to-day tasks involve '
+                     'maintenance, incremental improvements, or even cleaning '
+                     'up the mess another programmer left behind. These legacy '
+                     'or brownfield projects often have tightly coupled '
+                     'components, low cohesion, and poor separation of '
+                     'concerns, making them fragile and resistant to '
+                     'change.    Brownfield Application Development in .Net '
+                     'shows you how to approach legacy applications with the '
+                     "state-of-the-art concepts, patterns, and tools you've "
+                     'learned to apply to new projects. Using an existing '
+                     'application as an example, this book guides you in '
+                     'applying the techniques and best practices you need to '
+                     'make it more maintainable and receptive to change.    '
+                     'Starting with the build process and the introduction of '
+                     'unit tests, the authors show you how to set up the '
+                     'application so that in later chapters, you can make '
+                     'incremental changes aimed at decoupling components from '
+                     'each other. Each practice introduced will increase your '
+                     'confidence and ability to make subsequent changes to '
+                     'your code.    As the book proceeds, the authors '
+                     'introduce frameworks and tools commonly used today while '
+                     'still approaching the subject from a conceptual level so '
+                     'that you can substitute alternate tools as appropriate. '
+                     'This book examines the reasons why a tool is necessary, '
+                     'not the tool itself. Because the book is based on the '
+                     "authors' experiences, Brownfield Application Development "
+                     'in .Net moves beyond the theories and shows you the '
+                     'techniques you need to be successful.',
+  'pageCount': 550,
+  'publishedDate': datetime.datetime(2010, 4, 16, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/baley.jpg',
+  'title': 'Brownfield Application Development in .NET',
+  'year': 2010},
+ {'_id': 30,
+  'author1': 'Bear Bibeault',
+  'author2': 'Yehuda Katz',
+  'authors_count': 2,
+  'categories': ['Java'],
+  'isbn': '1935182323',
+  'longDescription': 'A really good web development framework anticipates your '
+                     'needs. jQuery does more   it practically reads your '
+                     'mind. Developers fall in love with this JavaScript '
+                     'library the moment they see 20 lines of code reduced to '
+                     'three. jQuery is concise and readable. Its unique '
+                     '"chaining" model lets you perform multiple operations on '
+                     'a page element in succession. And with version 1.4, '
+                     "there's even more to love about jQuery, including new "
+                     'effects and events, usability improvements, and more '
+                     'testing options.    jQuery in Action, Second Edition is '
+                     'a fast-paced introduction and guide. Building on the '
+                     'bestselling first edition, it adds new examples, more '
+                     'labs, and deeper explanations of important features. '
+                     'You   ll learn how to traverse HTML documents, handle '
+                     'events, perform animations, and add Ajax to your web '
+                     'pages. The book\'s unique "lab pages" anchor the '
+                     'explanation of each new concept in a practical example. '
+                     "You'll learn how jQuery interacts with other tools and "
+                     'frameworks and how to build jQuery plugins. This book '
+                     'requires a modest knowledge of JavaScript and Ajax.',
+  'pageCount': 488,
+  'publishedDate': datetime.datetime(2010, 6, 1, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bibeault2.jpg',
+  'title': 'jQuery in Action, Second Edition',
+  'year': 2010},
+ {'_id': 239,
+  'author1': 'Jeffrey Palermo',
+  'author2': 'Ben Scheirman',
+  'author3': 'Jimmy Bogard',
+  'authors_count': 6,
+  'categories': ['Microsoft .NET'],
+  'isbn': '193518279X',
+  'longDescription': 'The future of high-end web development on the Microsoft '
+                     'platform, ASP.NET MVC 2 provides clear separation of '
+                     'data, interface, and logic and radically simplifies '
+                     'tedious page and event lifecycle management. And since '
+                     "it's an evolution of ASP.NET, you can mix MVC and Web "
+                     'Forms in the same application, building on your existing '
+                     'work.    ASP.NET MVC 2 in Action is a fast-paced '
+                     'tutorial designed to introduce the MVC model to ASP.NET '
+                     'developers and show how to apply it effectively. After a '
+                     'high-speed ramp up, the book presents over 25 concise '
+                     'chapters exploring key topics like validation, routing, '
+                     'and data access. Each topic is illustrated with its own '
+                     "example so it's easy to dip into the book without "
+                     'reading in sequence. This book covers some high-value, '
+                     "high-end techniques you won't find anywhere else!    "
+                     'Microsoft ASP.NET MVC (model/view/controller) is a '
+                     'relatively new Web application framework that combines '
+                     "ASP.NET's power and ease of use with the stability and "
+                     'testability of a MVC framework. The much-anticipated '
+                     'version 2 release brings new capabilities to the '
+                     'framework along with numerous additions that enhance '
+                     'developer productivity. In ASP.NET MVC 2 in Action, '
+                     'readers learn how to move from web form-based '
+                     'development to designs based on the MVC pattern. It '
+                     'begins with an introduction to the MVC framework and '
+                     'quickly dives into a working MVC 2 project.    Featuring '
+                     'full coverage of new version 2 features, this book helps '
+                     'readers use developer-oriented upgrades like "Areas" to '
+                     'break a large project into smaller pieces and explore '
+                     'the new data handling tools. This revised edition adds a '
+                     'completely new tutorial to bring developers with no '
+                     'prior exposure to the MVC pattern up to speed quickly, '
+                     'keeping its focus on providing high-quality, '
+                     'professional grade examples that go deeper than the '
+                     'other ASP.NET MVC books.',
+  'pageCount': 432,
+  'publishedDate': datetime.datetime(2010, 6, 1, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/palermo2.jpg',
+  'title': 'ASP.NET MVC 2 in Action',
+  'year': 2010},
+ {'_id': 291,
+  'author1': 'Richard Siddaway',
+  'authors_count': 1,
+  'categories': ['Microsoft .NET'],
+  'isbn': '1935182005',
+  'longDescription': "Whether you're optimizing performance, automating tasks, "
+                     'or exploiting software features, efficiency is the key '
+                     "to a system administrator's success. Anything that saves "
+                     'a few cycles is a welcome addition to your toolbox; '
+                     'Windows PowerShell has the potential to change the game '
+                     'entirely.    Windows PowerShell is a new scripting '
+                     'language written from the ground up with the goal of '
+                     "simplifying Windows system administration. It's fully "
+                     'aware of the Windows platform and is tightly integrated '
+                     'with key server technologies like Exchange, IIS, SQL '
+                     'Server. PowerShell borrows many ideas from the Unix '
+                     "scripting world, so it's instantly familiar to anyone "
+                     "who has scripted in Bash or another Unix shell. It's "
+                     'also a first-class programming language that supports '
+                     'everything from single-line commands to full-featured '
+                     'Windows programs.    PowerShell in Practice is a '
+                     'hands-on, cookbook-style reference intended for '
+                     'administrators wanting to learn and use PowerShell. '
+                     "Written from an administrator's perspective, it "
+                     'concentrates on using PowerShell for practical tasks and '
+                     'automation. The book starts with an introduction that '
+                     'includes a rapid tutorial and a review of the key areas '
+                     "in which you'll use PowerShell.    This book is written "
+                     'to answer the question "How can PowerShell make my job '
+                     'as an administrator easier " After you have your feet '
+                     "under you, you'll find an assortment of practical "
+                     'techniques presented in a Problem/Solution format.    '
+                     'The first major part, called Working with People, '
+                     'addresses user accounts, mailboxes, and desktop '
+                     'configuration and maintenance. The second major part, '
+                     'Working with Servers, offers techniques for DNS, Active '
+                     'Directory, Exchange, IIS, and more.',
+  'pageCount': 500,
+  'publishedDate': datetime.datetime(2010, 6, 8, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/siddaway.jpg',
+  'title': 'PowerShell in Practice',
+  'year': 2010},
+ {'_id': 307,
+  'author1': 'Petar Tahchiev',
+  'author2': 'Felipe Leme',
+  'author3': 'Vincent Massol',
+  'authors_count': 5,
+  'categories': ['Java'],
+  'isbn': '1935182021',
+  'longDescription': 'When JUnit was first introduced a decade ago by Kent '
+                     'Beck and Erich Gamma, the Agile movement was in its '
+                     'infancy, "Test Driven Development" was unknown, and unit '
+                     'testing was just starting to move into the typical '
+                     "developer's vocabulary. Today, most developers "
+                     'acknowledge the benefits of unit testing and rely on the '
+                     'increasingly sophisticated tools now available. The '
+                     'recently released JUnit 4.5 represents the state of the '
+                     'art in unit testing frameworks, and provides significant '
+                     'new features to improve the Java development process.    '
+                     'JUnit in Action, Second Edition is an up-to-date guide '
+                     'to unit testing Java applications (including Java EE '
+                     'applications) using the JUnit framework and its '
+                     'extensions. This book provides techniques for solving '
+                     'real-world problems such as testing AJAX applications, '
+                     'using mocks to achieve testing isolation, in-container '
+                     'testing for Java EE and database applications, and test '
+                     'automation.    Written to help readers exploit JUnit '
+                     '4.5, the book covers recent innovations such as the new '
+                     'annotations that simplify test writing, improved '
+                     'exception handling, and the new assertion methods. '
+                     "You'll also discover how to use JUnit extensions to test "
+                     'new application styles and frameworks including Ajax, '
+                     'OSGi, and HTML-based presentation layers.    Using a '
+                     'sample-driven approach, various unit testing strategies '
+                     'are covered, such as how to unit test EJBs, database '
+                     'applications, and web applications. Also addressed are '
+                     'testing strategies using freely available open source '
+                     'frameworks and tools, and how to unit test in isolation '
+                     'with Mock Objects. The book will also bring you up to '
+                     'speed on the latest thinking in TDD, BDD, Continuous '
+                     'Integration, and other practices related to unit '
+                     'testing.  ',
+  'pageCount': 504,
+  'publishedDate': datetime.datetime(2010, 7, 1, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/tahchiev.jpg',
+  'title': 'JUnit in Action, Second Edition',
+  'year': 2010},
+ {'_id': 141,
+  'author1': 'Erik Hatcher',
+  'author2': 'Otis Gospodnetic',
+  'author3': '',
+  'authors_count': 4,
+  'categories': ['Java', 'Open Source'],
+  'isbn': '1933988177',
+  'longDescription': 'When Lucene first hit the scene five years ago, it was '
+                     'nothing short of amazing. By using this open-source, '
+                     'highly scalable, super-fast search engine, developers '
+                     'could integrate search into applications quickly and '
+                     'efficiently. A lot has changed since then   search has '
+                     'grown from a "nice-to-have" feature into an '
+                     'indispensable part of most enterprise applications. '
+                     'Lucene now powers search in diverse companies including '
+                     'Akamai, Netflix, LinkedIn, Technorati, HotJobs, '
+                     'Epiphany, FedEx, Mayo Clinic, MIT, New Scientist '
+                     'Magazine, and many others.    Some things remain the '
+                     'same, though. Lucene still delivers high-performance '
+                     "search features in a disarmingly easy-to-use API. It's "
+                     'still a single compact JAR file (less than 1 MB!). Due '
+                     'to its vibrant and diverse open-source community of '
+                     'developers and users, Lucene is relentlessly improving, '
+                     'with evolutions to APIs, significant new features such '
+                     'as payloads, and a huge (as much as 8x) increase in '
+                     'indexing speed with Lucene 3.0.    And with clear '
+                     'writing, reusable examples, and unmatched advice on best '
+                     'practices, Lucene in Action is still the definitive '
+                     'guide to developing with Lucene.',
+  'pageCount': 532,
+  'publishedDate': datetime.datetime(2010, 7, 9, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hatcher3.jpg',
+  'title': 'Lucene in Action, Second Edition',
+  'year': 2010},
+ {'_id': 313,
+  'author1': 'Brandon Trebitowski',
+  'author2': 'Christopher Allen',
+  'author3': '',
+  'authors_count': 4,
+  'categories': ['Mobile Technology'],
+  'isbn': '1935182587',
+  'longDescription': 'This hands-on tutorial will help you master iPhone/iPad '
+                     'development using the native iPhone SDK. It guides you '
+                     'from setting up dev tools like Xcode and Interface '
+                     'Builder, through coding your first app, all the way to '
+                     'selling in the App Store.    Using many examples, the '
+                     'book covers core features like accelerometers, GPS, the '
+                     "Address Book, and much more. Along the way, you'll learn "
+                     'to leverage your iPhone skills to build attractive iPad '
+                     'apps. This is a revised and expanded edition of the '
+                     'original iPhone in Action.',
+  'pageCount': 450,
+  'publishedDate': datetime.datetime(2010, 8, 1, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/trebitowski.jpg',
+  'title': 'iPhone and iPad in Action',
+  'year': 2010},
+ {'_id': ObjectId('53c2ae8528d75d572c06ada0'),
+  'authors_count': 0,
+  'categories': [],
+  'isbn': '1935182218',
+  'longDescription': 'When you look carefully, you notice patterns connecting '
+                     'the events that occur in any system. Some events have '
+                     'obvious and immediate relationships. Other patterns are '
+                     'more complex or develop over a longer time. Event '
+                     'Processing is the ability to identify and react to '
+                     'events and event patterns as they occur.    Event '
+                     'Processing in Action is a ground-breaking book that '
+                     'introduces the major concepts of event driven '
+                     'architectures and shows you how to use, design, and '
+                     'build event processing systems and applications. The '
+                     'book looks at practical examples and provides an '
+                     'in-depth explanation of their architecture and '
+                     "implementation. Throughout the book, you'll follow a "
+                     'comprehensive use case that expert authors Opher Etzion '
+                     'and Peter Niblett construct step-by-step.    Complex '
+                     'Event Processing, or CEP, is an emerging discipline, as '
+                     'well as an emerging market, which in 2008 is estimated '
+                     'in  150M and is expected to cross the  1B mark in 2-3 '
+                     "years. According to analysts' surveys, many businesses "
+                     'are starting to investigate both technical and business '
+                     'value considerations of implementing event processing '
+                     'into their organizations.    Event Processing in Action '
+                     'will answer key questions like:        * What are event '
+                     'driven architectures and how do they fit enterprise '
+                     'applications       * What are the various uses of event '
+                     'processing       * What are its major concepts       * '
+                     'What is the life-cycle of event driven application, and '
+                     'how should building such an application be '
+                     'approached     As the story unfolds through the '
+                     'construction of an event-driven application, readers '
+                     'will see how a specification in a graphical notation '
+                     'grows into a working example. Programming examples will '
+                     'be based on a set of building blocks developed in the '
+                     'book; existing commercial products and open source '
+                     'alternatives will be surveyed.    This book is intended '
+                     'for software architects and developers who want to '
+                     'understand the principles behind the emerging discipline '
+                     'of event processing, and go deeper to the details.',
+  'pageCount': 384,
+  'publishedDate': datetime.datetime(2010, 8, 15, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/etzion.jpg',
+  'title': 'Event Processing in Action',
+  'year': 2010},
+ {'_id': 52,
+  'author1': 'Arnaud Cogoluegnes',
+  'author2': 'Thierry Templier',
+  'author3': '',
+  'authors_count': 4,
+  'categories': ['Java'],
+  'isbn': '1935182307',
+  'longDescription': 'OSGi is increasingly familiar to Java coders working in '
+                     'distributed environments, but the tools required to '
+                     'implement OSGi-based systems have been slow to develop. '
+                     'Spring Dynamic Modules (Spring DM) is a framework '
+                     'designed to make it easy to build Spring apps that take '
+                     'advantage of the OSGi approach to modular Java '
+                     'development. It simplifies the task of creating true '
+                     'component and service oriented architectures in an OSGi '
+                     'environment using all the powerful features of the '
+                     'Spring framework.    Spring Dynamic Modules in Action '
+                     'introduces Spring DM and OSGi to Java EE developers and '
+                     'architects. It presents the fundamental concepts of '
+                     'OSGi-based apps and maps them to the familiar ideas of '
+                     'the Spring framework. Then, it engages you with the '
+                     "techniques and concepts you'll need to develop stable, "
+                     "flexible enterprise apps. You'll learn how to embed a "
+                     'Spring container inside an OSGi bundle, and how Spring '
+                     'DM lets you blend Spring strengths like dependency '
+                     'injection with OSGi-based services. Along the way, '
+                     "you'll see how Spring DM handles data access and "
+                     "web-based components, and you'll explore topics like "
+                     'unit testing and configuration in an OSGi-based '
+                     'environment.',
+  'pageCount': 450,
+  'publishedDate': datetime.datetime(2010, 9, 4, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cogoluegnes.jpg',
+  'title': 'Spring Dynamic Modules in Action',
+  'year': 2010},
+ {'_id': 248,
+  'author1': 'Pete Brown',
+  'authors_count': 1,
+  'categories': ['Microsoft .NET'],
+  'isbn': '1935182374',
+  'longDescription': 'Anyone who has gotten a taste of what it can do knows '
+                     'that Silverlight represents an entirely new level of '
+                     'rich web interface technology for Microsoft developers. '
+                     'With Silverlight, developers can use JavaScript, C#, and '
+                     'other languages to build user-friendly, interactive, and '
+                     'visually-dazzling web applications that work in most '
+                     'major browsers.    Silverlight in Action, Revised '
+                     'Edition is a comprehensive guide to Silverlight, taking '
+                     "you from Hello World through the techniques you'll need "
+                     'to build sophisticated rich web apps. This new edition '
+                     'covers all the new features added in the latest versions '
+                     'of Silverlight, Visual Studio, and Expression Blend, '
+                     'along with the best practices emerging in the '
+                     'Silverlight community. With more than 50% new content, '
+                     "you'll take a mind-expanding trip through the "
+                     'technology, features, and techniques required to build '
+                     'applications ranging from media, to custom experiences, '
+                     'to business applications to games.    Beyond the '
+                     "fundamentals, you'll find numerous practical examples of "
+                     'important patterns like the ViewModel (or MVVM) pattern, '
+                     'and effective practices for developing real-world '
+                     "applications. You'll delve into the underlying object "
+                     'model and what makes Silverlight tick. Business '
+                     'application developers will appreciate the coverage of '
+                     'the exciting new.NET RIA Services. Combined with '
+                     'advanced binding and validation techniques, they help '
+                     'you visualize how to make your application development '
+                     'super productive and your architecture flexible enough '
+                     'to implement solutions in any problem domain.    '
+                     'Silverlight in Action, Revised Edition devotes extensive '
+                     'coverage to flexible layout components, the extensible '
+                     'control model, the communication framework, and the '
+                     'data-binding features-all cornerstones of software '
+                     "development. You'll master Silverlight's rich media and "
+                     'vivid graphical and animation features. The closing '
+                     'chapters include a variety of Silverlight deployment and '
+                     'customization scenarios.    Finally, Silverlight in '
+                     "Action, Revised Edition doesn't leave you in the dark "
+                     'when it comes to testing and debugging your '
+                     'applications. Techniques, tools, and patterns to support '
+                     'testable Silverlight applications are woven throughout '
+                     'the chapters, with additional dedicated content on the '
+                     'specifics of testing and debugging in Silverlight.',
+  'pageCount': 425,
+  'publishedDate': datetime.datetime(2010, 10, 4, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pbrown.jpg',
+  'title': 'Silverlight 4 in Action, Revised Edition',
+  'year': 2010},
+ {'_id': 8,
+  'author1': 'Bernerd Allmon',
+  'author2': 'Jeremy Anderson',
+  'authors_count': 2,
+  'categories': ['Internet'],
+  'isbn': '1933988797',
+  'longDescription': 'In the demo, a hip designer, a sharply-dressed marketer, '
+                     'and a smiling, relaxed developer sip lattes and calmly '
+                     'discuss how Flex is going to make customers happy and '
+                     'shorten the workday   all while boosting the bottom '
+                     "line. The software systems they're using have been "
+                     'carefully selected and built from the ground up to work '
+                     'together seamlessly. There are no legacy systems, data, '
+                     'or competing business concerns to manage.    Cut to '
+                     "reality.    You're a Java developer. The marketing guy "
+                     'tells you that "corporate" wants a Flex-based site and '
+                     'you have to deliver it on top of what you already have. '
+                     'Your budget  Don\'t even ask. "Make it look like the '
+                     'Discovery channel or something."    Flex on Java assumes '
+                     'you live in the real world   not the demo. This unique '
+                     'book shows you how to refactor an existing web '
+                     'application using the server-side you already know. '
+                     "You'll learn to use Flex 3 in concert with Spring, EJB "
+                     '3, POJOs, JMS, and other standard technologies. Wherever '
+                     'possible, the examples use free or open source '
+                     'software.    The authors start with a typical Java web '
+                     'app and show you how to add a rich Flex interface. You '
+                     'also learn how to integrate Flex into your server-side '
+                     "Java via the BlazeDS framework, Adobe's open-source "
+                     'remoting and web messaging technology for Flex.    The '
+                     'book shows you how to deploy to not only the web but '
+                     'also to the desktop using the Adobe Integrated Runtime '
+                     '(AIR). You will learn how to integrate Flex into your '
+                     'existing applications in order to build a next '
+                     'generation application that will delight users.    Flex '
+                     'on Java is approachable for anyone beginning Java and '
+                     'Flex development.    ',
+  'pageCount': 265,
+  'publishedDate': datetime.datetime(2010, 10, 15, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/allmon.jpg',
+  'title': 'Flex on Java',
+  'year': 2010},
+ {'_id': 145,
+  'author1': 'Chris Hay',
+  'author2': 'Brian H. Prince',
+  'authors_count': 2,
+  'categories': ['Microsoft .NET'],
+  'isbn': '193518248X',
+  'longDescription': 'Cloud-based applications pose an intriguing value '
+                     'proposition for businesses. With an easily scalable, '
+                     'pay-as-you-go model and very small startup costs, the '
+                     'cloud can be a great alternative to systems hosted '
+                     'in-house. Developers are scrambling to understand the '
+                     'impact a cloud-based approach will have on current and '
+                     "future projects.    Azure is Microsoft's full-fledged "
+                     'entry into the "Cloud Services Platform" arena. Unlike '
+                     'other cloud offerings that address only one piece of the '
+                     'puzzle, Azure includes an operating system, a set of '
+                     'developer services, and a data model that can be used '
+                     "individually or together. It's designed to interact "
+                     'seamlessly with other .NET-based components, and '
+                     'leverages your knowledge of Visual Studio, the .NET '
+                     "platform, and SQL Server. It's also fully compatible "
+                     'with multiple internet protocols, including HTTP, REST, '
+                     'SOAP, and XML.    Azure in Action is a fast-paced '
+                     'tutorial intended for architects and developers looking '
+                     'to develop on Windows Azure and the Windows Azure '
+                     "Platform. It's designed both for readers new to cloud "
+                     'concepts and for those familiar with cloud development '
+                     'but new to Azure. After a quick walk through the basics, '
+                     'it guides you all the way from your first app through '
+                     'more advanced concepts of the Windows Azure Platform.    '
+                     'The book starts by looking at the logical and physical '
+                     'architecture of an Azure app, and then moves to the core '
+                     'storage services   binary store, tables and queues. '
+                     'Then, it explores designing and scaling frontend and '
+                     'backend services that run in the cloud. Next, it covers '
+                     'more advanced scenarios in Windows Azure. After covering '
+                     'the core of Azure, it introduces the rest of the Windows '
+                     'Azure Platform with a particular focus on SQL Azure '
+                     'Database.',
+  'pageCount': 425,
+  'publishedDate': datetime.datetime(2010, 10, 22, 7, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hay.jpg',
+  'title': 'Azure in Action',
+  'year': 2010},
+ {'_id': 5,
+  'author1': 'Tariq Ahmed',
+  'author2': 'Dan Orlando',
+  'author3': 'John C. Bland II',
+  'authors_count': 4,
+  'categories': ['Internet'],
+  'isbn': '1935182420',
+  'longDescription': 'Using Flex, you can create high-quality, effective, and '
+                     'interactive Rich Internet Applications (RIAs) quickly '
+                     'and easily. Flex removes the complexity barrier from RIA '
+                     'development by offering sophisticated tools and a '
+                     'straightforward programming language so you can focus on '
+                     'what you want to do instead of how to do it. And the new '
+                     'features added in Flex 4 give you an even wider range of '
+                     'options!    Flex 4 in Action is an easy-to-follow, '
+                     'hands-on Flex tutorial that goes beyond feature coverage '
+                     'and helps you put Flex to work in real day-to-day tasks. '
+                     "You'll quickly master the Flex API and learn to apply "
+                     'the techniques that make your Flex applications stand '
+                     'out from the crowd.    The expert authors of Flex 4 in '
+                     'Action have one goal-to help you get down to business '
+                     'with Flex. Fast. Flex 4 in Action filters out the noise '
+                     'and dives into the core topics you need every day. Using '
+                     'numerous easy-to-understand examples, Flex 4 in Action '
+                     'gives you a strong foundation that you can build on as '
+                     'the complexity of your projects increases.    '
+                     "Interesting themes, styles, and skins  It's in there.  "
+                     'Working with databases  You got it.  Interactive forms '
+                     'and validation  You bet.  Charting techniques to help '
+                     "you visualize data  Bam!  And you'll get full coverage "
+                     'of these great Flex 4 upgrades:  Next generation Spark '
+                     'components-New buttons, form inputs, navigation controls '
+                     'and other visual components replace the Flex 3 "Halo" '
+                     'versions. Spark components are easier to customize, '
+                     'which makes skinning and theme design much faster  A new '
+                     '"network monitor" allows you to see the data '
+                     'communications between a Flex application and a backend '
+                     'server, which helps when trying to debug applications '
+                     'that are communicating to another system/service  '
+                     'Numerous productivity boosting features that speed up '
+                     'the process of creating applications  A faster compiler '
+                     'to take your human-written source code and convert it '
+                     'into a machine-readable format  Built-in support for '
+                     'unit testing allows you to improve the quality of your '
+                     'software, and reduce the time spent in testing',
+  'pageCount': 600,
+  'publishedDate': datetime.datetime(2010, 11, 15, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed2.jpg',
+  'title': 'Flex 4 in Action',
+  'year': 2010},
+ {'_id': 197,
+  'author1': 'Martin Logan',
+  'author2': 'Eric Merritt',
+  'author3': '',
+  'authors_count': 4,
+  'categories': ['Programming'],
+  'isbn': '1933988789',
+  'longDescription': 'Concurrent programming has become a required discipline '
+                     'for all programmers. Multi-core processors and the '
+                     'increasing demand for maximum performance and '
+                     'scalability in mission-critical applications have '
+                     'renewed interest in functional languages like Erlang '
+                     'that are designed to handle concurrent programming. '
+                     'Erlang, and the OTP platform, make it possible to '
+                     'deliver more robust applications that satisfy rigorous '
+                     'uptime and performance requirements.    Erlang and OTP '
+                     "in Action teaches you to apply Erlang's shared-state "
+                     'model for concurrent programming--a completely different '
+                     'way of tackling the problem of parallel programming from '
+                     'the more common multi-threaded approach. This book walks '
+                     'you through the practical considerations and steps of '
+                     'building systems in Erlang and integrating them with '
+                     'real-world C/C++, Java, and .NET applications. Unlike '
+                     'other books on the market, Erlang and OTP in Action '
+                     'offers a comprehensive view of how concurrency relates '
+                     'to SOA and web technologies.    This hands-on guide is '
+                     'perfect for readers just learning Erlang or for those '
+                     'who want to apply their theoretical knowledge of this '
+                     "powerful language. You'll delve into the Erlang language "
+                     'and OTP runtime by building several progressively more '
+                     'interesting real-world distributed applications. Once '
+                     'you are competent in the fundamentals of Erlang, the '
+                     'book takes you on a deep dive into the process of '
+                     'designing complex software systems in Erlang.',
+  'pageCount': 500,
+  'publishedDate': datetime.datetime(2010, 11, 16, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/logan.jpg',
+  'title': 'Erlang and OTP in Action',
+  'year': 2010},
+ {'_id': 275,
+  'author1': 'Jothy Rosenberg',
+  'author2': 'Arthur Mateos',
+  'authors_count': 2,
+  'categories': ['Internet'],
+  'isbn': '1935182528',
+  'pageCount': 200,
+  'publishedDate': datetime.datetime(2010, 11, 22, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rosenberg.jpg',
+  'title': 'The Cloud at Your Service',
+  'year': 2010},
+ {'_id': 204,
+  'author1': 'Bruno Lowagie',
+  'authors_count': 1,
+  'categories': ['Java'],
+  'isbn': '1935182617',
+  'longDescription': 'Far from a static document presentation format, PDF '
+                     'supports many dynamic or interactive features. With '
+                     'iText, the leading tool creating and manipulating PDF '
+                     'programmatically, you can transform PDF documents into '
+                     'live, interactive applications quickly and easily. '
+                     'iText, a free, open source library for Java and .NET, '
+                     'was developed and maintained by Bruno Lowagie, the '
+                     'author of this book, with the help of many '
+                     'contributors.    iText in Action, Second Edition offers '
+                     'an introduction and a practical guide to iText and the '
+                     'internals of PDF. While at the entry level iText is easy '
+                     "to learn, there's an astonishing range of things you can "
+                     'do once you dive below the surface. This book lowers the '
+                     'learning curve and, though numerous innovative and '
+                     'practical examples, unlocks the secrets hidden in '
+                     "Adobe's PDF Reference. The examples are in Java but they "
+                     "can be easily adapted to .NET using one of iText's .NET "
+                     'ports: iTextSharp or iText.NET.    This totally revised '
+                     'new edition introduces the new functionality added to '
+                     'iText in recent releases, and it updates all examples '
+                     "from JDK 1.4 to Java 5. You'll learn how to use "
+                     'traditional and new form types in PDF, including full '
+                     "coverage of the AcroForm technology. You'll also explore "
+                     'the XML Forms Architecture (XFA) and learn how to fill '
+                     'static and dynamic XFA forms with iText. Along the way, '
+                     "you'll discover new techniques for linking documents, "
+                     'creating a PDF based on records in a database, and much '
+                     "more.    WHAT'S INSIDE        * Serve PDF to a "
+                     'browser      * Automate both static and dynamic XFA '
+                     'forms      * Generate dynamic PDF documents from XML '
+                     "files or databases      * Use PDF's many interactive "
+                     'features      * Add bookmarks, page numbers, watermarks, '
+                     'etc.      * Split, concatenate, and manipulate PDF '
+                     'pages      * Add digital signatures to a PDF file      * '
+                     'New hands-on, ready to use examples',
+  'pageCount': 600,
+  'publishedDate': datetime.datetime(2010, 11, 22, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lowagie2.jpg',
+  'title': 'iText in Action, Second Edition',
+  'year': 2010},
+ {'_id': ObjectId('53c2ae8528d75d572c06adb8'),
+  'authors_count': 0,
+  'categories': [],
+  'isbn': '1935182455',
+  'longDescription': 'On any given day, a developer may encounter a system '
+                     'rife with languages, frameworks, and operating '
+                     'environments   none of which resemble the actual domain '
+                     "of the system he's being asked to develop! Success   and "
+                     'sanity   dictate that developers and designers work at '
+                     'higher levels of abstraction so that they can remain '
+                     "focused on the problems they're trying to solve. Domain "
+                     'Specific Languages, "little languages" implemented on '
+                     'top of a conventional programming language, provide a '
+                     'way to maintain the power of the underlying network of '
+                     'technology while writing code that more closely models '
+                     'the domain of the business problem.    DSLs in Action '
+                     'introduces the concepts and definitions a developer '
+                     'needs to build high-quality domain specific languages. '
+                     'It provides a solid foundation to the usage as well as '
+                     'implementation aspects of a DSL, focusing on the '
+                     'necessity of applications speaking the language of the '
+                     'domain. After reading this book, a programmer will be '
+                     'able to design APIs that make better domain models. For '
+                     'experienced developers, the book addresses the '
+                     'intricacies of domain language design without the pain '
+                     'of writing parsers by hand.    The gap in understanding '
+                     'between the development team and the business domain '
+                     'specialists can lead to errors during user acceptance '
+                     'tests. This book teaches developers to build DSLs that '
+                     'bridge this gap by offering API development techniques '
+                     'that closely model the domain vocabulary. Even '
+                     'non-programmer domain experts can benefit from this book '
+                     'by learning how DSLs can make them a more integral part '
+                     'of the team during the program development phase.    The '
+                     'book discusses DSL usage and implementations in the real '
+                     'world based on a suite of JVM languages like Java, Ruby, '
+                     'Scala, and Groovy. It contains code snippets that '
+                     'implement real world DSL designs and discusses the pros '
+                     "and cons of each implementation.    WHAT'S INSIDE        "
+                     '* Working with DSLs in real-life applications      * '
+                     'In-depth techniques of DSL implementation      * '
+                     'Meta-programming techniques      * Parser/Combinator '
+                     'based little languages      * Implementing DSLs on top '
+                     'of the JVM      * Real-world DSL examples      * '
+                     'Interoperability among JVM languages      * Correct '
+                     'level of abstraction for your domain APIs      * DSL and '
+                     'Domain Driven Design    This book is written especially '
+                     'for developers familiar with JVM-based languages, but '
+                     'many of the techniques presented will work in other '
+                     'programming environments as well.',
+  'pageCount': 376,
+  'publishedDate': datetime.datetime(2010, 12, 1, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ghosh.jpg',
+  'title': 'DSLs in Action',
+  'year': 2010},
+ {'_id': 186,
+  'author1': 'Chuck Lam',
+  'authors_count': 1,
+  'categories': ['Java'],
+  'isbn': '1935182196',
+  'longDescription': 'Hadoop is an open source framework implementing the '
+                     "MapReduce algorithm behind Google's approach to querying "
+                     'the distributed data sets that constitute the internet. '
+                     'This definition naturally leads to an obvious question, '
+                     '"What are "maps" and why do they need to be "reduced '
+                     '"    Massive data sets can be extremely difficult to '
+                     'analyze and query using traditional mechanisms, '
+                     'especially when the queries themselves are quite '
+                     'complicated. In effect, the MapReduce algorithm breaks '
+                     'up both the query and the data set into constituent '
+                     'parts   that\'s the "mapping." The mapped components of '
+                     'the query can be processed simultaneously   or '
+                     '"reduced"   to rapidly return results.    Hadoop in '
+                     'Action teaches readers how to use Hadoop and write '
+                     'MapReduce programs. The intended readers are '
+                     'programmers, architects, and project managers who have '
+                     'to process large amounts of data offline. Hadoop in '
+                     'Action will lead the reader from obtaining a copy of '
+                     'Hadoop to setting it up in a cluster and writing data '
+                     'analytic programs.    The book begins by making the '
+                     'basic idea of Hadoop and MapReduce easier to grasp by '
+                     'applying the default Hadoop installation to a few '
+                     'easy-to-follow tasks, such as analyzing changes in word '
+                     'frequency across a body of documents. The book continues '
+                     'through the basic concepts of MapReduce applications '
+                     'developed using Hadoop, including a close look at '
+                     'framework components, use of Hadoop for a variety of '
+                     'data analysis tasks, and numerous examples of Hadoop in '
+                     'action.    Hadoop in Action will explain how to use '
+                     'Hadoop and present design patterns and practices of '
+                     'programming MapReduce. MapReduce is a complex idea both '
+                     'conceptually and in its implementation, and Hadoop users '
+                     'are challenged to learn all the knobs and levers for '
+                     'running Hadoop. This book takes you beyond the mechanics '
+                     'of running Hadoop, teaching you to write meaningful '
+                     'programs in a MapReduce framework.    This book assumes '
+                     'the reader will have a basic familiarity with Java, as '
+                     'most code examples will be written in Java. Familiarity '
+                     'with basic statistical concepts (e.g. histogram, '
+                     'correlation) will help the reader appreciate the more '
+                     'advanced data processing examples.',
+  'pageCount': 325,
+  'publishedDate': datetime.datetime(2010, 12, 1, 8, 0),
+  'status': 'PUBLISH',
+  'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lam.jpg',
+  'title': 'Hadoop in Action',
+  'year': 2010}]
+[{'_id': None, 'count': 37},
+ {'_id': 'Vikram Goyal', 'count': 12},
+ {'_id': 'Don Jones', 'count': 6},
+ {'_id': 'Christian Bauer', 'count': 4},
+ {'_id': 'Craig Walls', 'count': 4},
+ {'_id': 'Jon Skeet', 'count': 3},
+ {'_id': 'Ted Neward', 'count': 3},
+ {'_id': 'Tim Hatton', 'count': 3},
+ {'_id': 'W. Frank Ableson', 'count': 3},
+ {'_id': 'Richard Siddaway', 'count': 3}]
